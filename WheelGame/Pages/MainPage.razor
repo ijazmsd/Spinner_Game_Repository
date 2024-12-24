@@ -1,0 +1,55 @@
+﻿@page "/"
+@using System.Text.Json
+
+<h1 style="text-align: center;">Rummy Roulette</h1>
+
+@if (ErrorMessage != null)
+{
+    <p style="color: red; text-align: center;">@ErrorMessage</p>
+}
+else
+{
+    <div style="text-align: center; position: relative; width: 500px; height: 500px; margin: auto;">
+        <!-- Increased width/height -->
+        <!-- Arrow -->
+        <div style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%); z-index: 10;">
+            <svg width="30" height="30" viewBox="0 0 30 30">
+                <polygon points="15,30 30,0 0,0" style="fill:red;" />
+            </svg>
+        </div>
+
+        <!-- Spinner Wheel -->
+        <svg id="spinWheel" width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+             style="transform: rotate(@RotationAngle + 'deg'); transition: transform 5s cubic-bezier(0.25, 1, 0.5, 1);">
+            <!-- Increased size -->
+            <circle cx="250" cy="250" r="250" fill="#ddd" stroke="#333" stroke-width="8" />
+            <g transform="translate(250, 250)">
+                @foreach (var (game, index) in Games.Select((g, i) => (g, i)))
+                {
+                    <path d="@GetPathData(index)"
+                          fill="@GetSliceColor(index)"
+                          stroke="#fff"
+                          stroke-width="2" />
+                    @GetVerticalTextElement(index, game.Title)
+                }
+            </g>
+        </svg>
+
+        <!-- Spin Button -->
+        <button class="round-button" @onclick="async () => await SpinWheel()" style="top: 92%;">
+            <!-- Adjusted button position -->
+            Spin
+        </button>
+    </div>
+
+    @if (SelectedGame != null)
+    {
+        <div style="background-color:@SelectedGame.BackgroundColor; color:@SelectedGame.TextColor; padding: 1em; margin-top: 1em;">
+            <h2>@SelectedGame.Title</h2>
+            <p>@SelectedGame.Description</p>
+            <img src="@SelectedGame.Icon" alt="@SelectedGame.Title" style="max-width: 100px;" />
+            <p><a href="@SelectedGame.InstructionsUrl" target="_blank">Game Rules</a></p>
+        </div>
+    }
+}
+}

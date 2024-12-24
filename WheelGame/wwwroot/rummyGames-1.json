@@ -1,0 +1,577 @@
+[
+  {
+    "uuid": "89e99871-95f5-4f6f-855a-720201962878",
+    "title": "Classic Canasta",
+    "otherNames": [], 
+    "category": ["Canasta"],
+    "players": [2, 3, 4, 6],
+    "icon": "https://example.com/regal-classic-canasta.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "The classic Canasta card game with a luxurious feel.",
+    "instructionsUrl": "https://example.com/regal-classic-canasta-rules.pdf",
+    "equipment": [ "Regal Canasta", "Canasta Card Game Set", "Standard Playing Cards", "Canasta Caliente" ],
+    "countryOfOrigin": "Uruguay",
+    "backgroundColor": "#D4AF37",
+    "textColor": "#000000",
+    "minAge": 10,
+    "similarTo": ["f2a3c1d5-e6b8-497a-a135-8765432109ab"]
+  },
+  {
+    "uuid": "a7b8c9d0-e1f2-4356-789a-1234506789ab",
+    "title": "Phase 10",
+    "otherNames": [],
+    "category": ["Commercial", "Contract Rummy"],
+    "players": [2, 3, 4, 5, 6],
+    "icon": "https://example.com/phase-10.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A rummy game with phases of different melds.",
+    "instructionsUrl": "https://example.com/phase-10-rules.html",
+    "equipment": [ "Phase 10" ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#007bff",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": ["b6c7d8e9-f0a1-4234-5678-90123456789a"] 
+  },
+  {
+    "uuid": "b6c7d8e9-f0a1-4234-5678-90123456789a",
+    "title": "Rummikub",
+    "otherNames": [],
+    "category": ["Commercial", "Tile-Based"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/rummikub.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A tile-based rummy game with number runs and sets.",
+    "instructionsUrl": "https://example.com/rummikub-rules.pdf",
+    "equipment": [ "Rummikub Premium", "Rummikub Retro Tin"  ],
+    "countryOfOrigin": "Israel",
+    "backgroundColor": "#dc3545",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": [
+      "c5d6e7f8-a9b0-4123-4567-890123456789", 
+      "d4e5f6a7-b8c9-4012-3456-789012345678"  
+    ]
+  },
+  {
+    "uuid": "c5d6e7f8-a9b0-4123-4567-890123456788",
+    "title": "Okey",
+    "otherNames": [],
+    "category": ["Commercial", "Tile-Based"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/okey.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A Rummy game played with a Rummikub set.",
+    "instructionsUrl": "https://example.com/okey.pdf",
+    "equipment": [ "Rummikub Premium", "Rummikub Retro Tin"  ],
+    "countryOfOrigin": "Turkey",
+    "backgroundColor": "#ffc107",
+    "textColor": "#000000",
+    "minAge": 8,
+    "similarTo": ["b6c7d8e9-f0a1-4234-5678-90123456789a"] 
+  },
+  {
+    "uuid": "d4e5f6a7-b8c9-4012-3456-789012345678",
+    "title": "Rummikub 6-Player Set",
+    "otherNames": [],
+    "category": ["Commercial", "Tile-Based"],
+    "players": [2, 3, 4, 5, 6],
+    "icon": "https://example.com/rummikub-6-player.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "Rummikub with extra tiles for larger groups.",
+    "instructionsUrl": "https://example.com/rummikub-rules.pdf",
+    "equipment": [ "Rummikub 6-Player Edition"  ],
+    "countryOfOrigin": "Israel",
+    "backgroundColor": "#28a745",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": ["b6c7d8e9-f0a1-4234-5678-90123456789a"] 
+  },
+  {
+    "uuid": "e3f4a5b6-c7d8-4901-2345-678901234567",
+    "title": "Rumipoo",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [3, 4, 5, 6, 7],
+    "icon": "https://example.com/rumipoo.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A fast-paced rummy game with special action cards.",
+    "instructionsUrl": "https://example.com/rumipoo-rules.html",
+    "equipment": [ "Rummipoo"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#6f42c1",
+    "textColor": "#ffffff",
+    "minAge": 10,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "a8b9c0d1-e2f3-4467-890a-132546790ab1",
+    "title": "Robots the Card Game",
+    "otherNames": [],
+    "category": ["Commercial", "Rummy 500"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/robots-card-game.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A card game where you program robots to move and collect resources.",
+    "instructionsUrl": "https://example.com/robots-card-game-rules.html",
+    "equipment": [ "Robots the Card Game"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#6c757d",
+    "textColor": "#ffffff",
+    "minAge": 10,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "b7c8d9e0-f1a2-4356-789b-0123456789a0",
+    "title": "Five Crowns",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [2, 3, 4, 5, 6, 7],
+    "icon": "https://example.com/five-crowns.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A rummy-style card game with a rotating wild card.",
+    "instructionsUrl": "https://example.com/five-crowns-rules.pdf",
+    "equipment": [ "Five Crowns", "Five Crowns Tin"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#17a2b8",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "7171ffc5-2364-4695-98a1-c8100270a035",
+    "title": "Five Crowns Solitaire",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [1],
+    "icon": "https://example.com/five-crowns.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A single player rummy-style card game with a rotating wild card.",
+    "instructionsUrl": "https://example.com/five-crowns-solitaire-rules.pdf",
+    "equipment": [ "Five Crowns", "Five Crowns Tin"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#17a2b8",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "c6d7e8f9-a0b1-4234-5679-89012345678a",
+    "title": "Hand and Foot Remastered",
+    "otherNames": [],
+    "category": ["Hand & Foot", "Canasta", "Commercial"],
+    "players": [2, 3, 4, 5, 6, 7, 8],
+    "icon": "https://example.com/hand-and-foot.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A Canasta variant with two sets of cards dealt to each player.",
+    "instructionsUrl": "https://example.com/hand-and-foot-rules.html",
+    "equipment": [ "Hand and Foot Remastered 4-Player Set", "Hand and Foot Remastered 8-Player Set"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#fd7e14",
+    "textColor": "#000000",
+    "minAge": 10,
+    "similarTo": [
+      "89e99871-95f5-4f6f-855a-720201962878", 
+      "f2a3c1d5-e6b8-497a-a135-8765432109ab"  
+    ]
+  },
+  {
+    "uuid": "d5e6f7a8-b9c0-4123-4568-79012345678b",
+    "title": "ScorZo",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/scorzo.jpg",
+    "description": "A fast-paced card game with scoring combinations.",
+    "instructionsUrl": "https://example.com/scorzo-rules.pdf",
+    "equipment": [ "ScorZo"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#343a40",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "e4f5a6b7-c8d9-4012-3457-689012345679",
+    "title": "MoMo's Shanghai Rummy",
+    "otherNames": [],
+    "category": ["Gin Rummy", "Contract Rummy"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/momos-shanghai-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A challenging rummy game with unique scoring rules.",
+    "instructionsUrl": "https://example.com/momos-shanghai-rummy-rules.html",
+    "equipment": [ "MoMo's Shanghai Rummy"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#d63384",
+    "textColor": "#ffffff",
+    "minAge": 12,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "f3a4c2d6-e7b9-4901-2346-578901234568",
+    "title": "Qwerkle Rummy",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/qwerkle-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A tile-laying game with rummy-style combinations.",
+    "instructionsUrl": "https://example.com/qwerkle-rummy-rules.pdf",
+    "equipment": [ "Qwerkle Rummy"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#0062cc",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": ["b6c7d8e9-f0a1-4234-5678-90123456789a"] 
+  },
+  {
+    "uuid": "a9b0c1d2-e3f4-4467-890b-243657801ab2",
+    "title": "Farm Animal Rummy",
+    "otherNames": [],
+    "category": ["Children's Game", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/farm-animal-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A simple rummy game for young children with farm animal themes.",
+    "instructionsUrl": "https://example.com/farm-animal-rummy-rules.html",
+    "equipment": [ "Farm Animal Rummy"  ],
+    "countryOfOrigin": "UNKNOWN",
+    "backgroundColor": "#f0f8ff",
+    "textColor": "#000000",
+    "minAge": 4,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "b8c9d0e1-f2a3-4356-789c-1234567890a1",
+    "title": "Rummy 21",
+    "otherNames": [],
+    "category": ["Classic Rummy", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/rummy-21.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A rummy game with a focus on reaching a hand value of 21.",
+    "instructionsUrl": "https://example.com/rummy-21-rules.pdf",
+    "equipment": [ "Rummy 21"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#721c24",
+    "textColor": "#ffffff",
+    "minAge": 10,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "c7d8e9f0-a1b2-4234-567a-90123456789b",
+    "title": "Monopoly: The Card Game",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/monopoly-card-game.jpg",
+    "description": "A card game based on the classic Monopoly board game.",
+    "instructionsUrl": "https://example.com/monopoly-card-game-rules.html",
+    "equipment": [ "Monopoly: The Card Game"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#212529",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": []
+  },
+  {
+    "uuid": "d6e7f8a9-b0c1-4123-4569-80123456789c",
+    "title": "Mystery Rummy: Jack The Ripper",
+    "otherNames": [],
+    "category": ["Commercial"],
+    "players": [2, 3, 4, 5],
+    "icon": "https://example.com/mystery-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A rummy game with a mystery-solving theme.",
+    "instructionsUrl": "https://example.com/mystery-rummy-rules.pdf",
+    "equipment": [ "Mystery Rummy: Jack The Ripper"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#adb5bd",
+    "textColor": "#000000",
+    "minAge": 12,
+    "similarTo": [] 
+  },
+  {
+    "uuid": "e5f6a7b8-c9d0-4012-3458-79012345678a",
+    "title": "American Mah Jongg",
+    "otherNames": [],
+    "category": ["Mahjong", "Tile-Based"],
+    "players": [4],
+    "icon": "https://example.com/american-mahjongg.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "The American version of the classic Chinese tile game.",
+    "instructionsUrl": "https://example.com/american-mahjongg-rules.pdf",
+    "equipment": [ "Classic Game Collection Travel Mahjong: American Version"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#007bff",
+    "textColor": "#ffffff",
+    "minAge": 10,
+    "similarTo": [ "f4a5b6c7-d8e9-4901-2347-68901234567b", 
+      "a0b1c2d3-e4f5-4467-890c-354768912ab3"  
+    ]
+  },
+  {
+    "uuid": "f4a5b6c7-d8e9-4901-2347-68901234567b",
+    "title": "Mah Jongg Card Game",
+    "otherNames": [],
+    "category": ["Mahjong", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/mahjongg-card-game.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A card game adaptation of the classic Mahjongg tile game.",
+    "instructionsUrl": "https://example.com/mahjongg-card-game-rules.html",
+    "equipment": [ "Mah Jongg Custom Designed Card Game"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#ffc107",
+    "textColor": "#000000",
+    "minAge": 8,
+    "similarTo": [ "e5f6a7b8-c9d0-4012-3458-79012345678a" ]
+  },
+  {
+    "uuid": "a0b1c2d3-e4f5-4467-890c-354768912ab3",
+    "title": "Boba Mahjong",
+    "otherNames": [],
+    "category": ["Mahjong", "Tile-Based"],
+    "players": [4],
+    "icon": "https://example.com/boba-mahjong.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A modern Mahjongg set with boba tea themed tiles.",
+    "instructionsUrl": "https://example.com/boba-mahjong-rules.pdf",
+    "equipment": [ "Boba Mahjong"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#28a745",
+    "textColor": "#ffffff",
+    "minAge": 10,
+    "similarTo": [
+      "e5f6a7b8-c9d0-4012-3458-79012345678a", 
+      "f4a5b6c7-d8e9-4901-2347-68901234567b"  
+    ]
+  },
+  {
+    "uuid": "b9c0d1e2-f3a4-4356-789d-0123456789a2",
+    "title": "Eric Carle Animal Rummy Card Game",
+    "otherNames": [],
+    "category": ["Children's Game", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/eric-carle-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A rummy game for young children featuring Eric Carle's artwork.",
+    "instructionsUrl": "https://example.com/eric-carle-rummy-rules.html",
+    "equipment": [ "Eric Carle Animal Rummy Card"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#f8f9fa",
+    "textColor": "#000000",
+    "minAge": 4,
+    "similarTo": ["a9b0c1d2-e3f4-4467-890b-243657801ab2"] 
+  },
+  {
+    "uuid": "c8d9e0f1-a2b3-4234-567b-89012345678c",
+    "title": "Chinese Mahjong",
+    "otherNames": [],
+    "category": ["Mahjong", "Tile-Based"],
+    "players": [4],
+    "icon": "https://example.com/chinese-mahjong.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "The traditional Chinese tile game with complex rules and scoring.",
+    "instructionsUrl": "https://example.com/chinese-mahjong-rules.pdf",
+    "equipment": [ "Chinese Mahjong Travel Set"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#343a40",
+    "textColor": "#ffffff",
+    "minAge": 12,
+    "similarTo": [
+      "e5f6a7b8-c9d0-4012-3458-79012345678a", 
+      "a0b1c2d3-e4f5-4467-890c-354768912ab3"  
+    ]
+  },
+  {
+    "uuid": "18f2d4b6-a97c-4e35-8012-3456789abcdef",
+    "title": "Gin Rummy",
+    "otherNames": [],
+    "category": ["Classic Rummy", "Card Game"],
+    "players": [2],
+    "icon": "https://example.com/gin-rummy.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A classic card game for two players where you try to form sets and runs of cards.",
+    "instructionsUrl": "https://example.com/gin-rummy-rules.pdf",
+    "equipment": [ "Standard Playing Cards"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#f0f8ff",
+    "textColor": "#000000",
+    "minAge": 8,
+    "similarTo": ["e4f5a6b7-c8d9-4012-3457-689012345679"]
+  },
+  {
+    "uuid": "9b7c3e5d-f1a2-4093-8765-43210abcdef1",
+    "title": "Rummy 500",
+    "otherNames": [],
+    "category": ["Classic Rummy", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/rummy-500.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A classic rummy game where players try to score points by melding cards.",
+    "instructionsUrl": "https://example.com/rummy-500-rules.pdf",
+    "equipment": [ "Standard Playing Cards"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#721c24",
+    "textColor": "#ffffff",
+    "minAge": 8,
+    "similarTo": ["a8b9c0d1-e2f3-4467-890a-132546790ab1"]
+  },
+  {
+    "uuid": "2c8d3f6e-b0a1-4182-9675-3210abcdef012",
+    "title": "Rainbow Pirates",
+    "otherNames": [],
+    "category": ["Children's Game", "Card Game"],
+    "players": [2, 3, 4],
+    "icon": "https://example.com/rainbow-pirates.jpg",
+    "videos": [
+      "https://youtube.com/example-phase10-overview"
+    ],
+    "pictures": [
+      "https://cdn.example.com/images/phase10-1.jpg",
+      "https://cdn.example.com/images/phase10-2.jpg"
+    ],
+    "description": "A colorful card game for children with a pirate theme.",
+    "instructionsUrl": "https://example.com/rainbow-pirates-rules.html",
+    "equipment": [ "Rainbow Pirates"  ],
+    "countryOfOrigin": "United States",
+    "backgroundColor": "#ffc107",
+    "textColor": "#000000",
+    "minAge": 5,
+    "similarTo": ["a9b0c1d2-e3f4-4467-890b-243657801ab2"]
+  }
+]

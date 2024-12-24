@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RummyRoulette/v17
+/.vs/Spinner_Game/FileContentIndex
+/.vs/Spinner_Game/v17
+/WheelGame/bin/Debug/net6.0
+/WheelGame/obj/Debug/net6.0
+/WheelGame/obj
+/.vs/RummyRoulette/FileContentIndex
