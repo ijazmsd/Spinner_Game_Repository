@@ -1,24 +1,21 @@
 ﻿@page "/index-test"
 
-<div class="wrapper">
-    <div class="main">
-        <h1>Spin the Wheel App</h1>
-        <div class="container">
-            <div class="wheel-section">
-                <canvas id="wheel"></canvas>
-                <button id="spin-btn">Spin</button>
-                <img src="https://cdn-icons-png.flaticon.com/128/9590/9590006.png" alt="spinner-arrow" />
-            </div>
-            <div id="final-value">
-                <p>Click the Spin Button to Start!</p>
+<div class="container-wrapper">
+    <div class="wrapper">
+        <div class="main">
+            <h1>Spin the Wheel App</h1>
+            <div class="container">
+                <div class="wheel-section">
+                    <canvas id="wheel" width="300" height="300"></canvas>
+                    <button id="spin-btn">Spin</button>
+                    <img src="https://cdn-icons-png.flaticon.com/128/9590/9590006.png" alt="spinner-arrow" />
+                </div>
             </div>
         </div>
     </div>
 
-    @* <!-- Card for Game Information on the Left -->
-    <div id="game-card" class="game-card">
-        <div id="game-info" class="card">
-            <!-- Dynamic content will be injected here -->
-        </div>
-    </div> *@
+    <!-- The Final Result Section (on the right side of the wrapper) -->
+    <div id="result" class="result">
+        <p>Click the Spin Button to Start!</p>
+    </div>
 </div>
