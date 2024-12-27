@@ -1,25 +1,10 @@
+using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components;
-using System.Net.Http;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Components.Routing;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.Web.Virtualization;
-using Microsoft.JSInterop;
-using RummyRoulette;
-using RummyRoulette.Shared;
 using System.Text.Json;
+using System.Threading.Tasks;
 using WheelGame.Models;
-using Microsoft.AspNetCore.DataProtection.KeyManagement;
-using Microsoft.Extensions.Options;
-using Microsoft.VisualBasic;
-using System.IO;
-using System.Security.Cryptography.Xml;
 
 namespace RummyRoulette.Pages
 {
@@ -48,30 +33,20 @@ namespace RummyRoulette.Pages
         {
             if (Games == null || Games.Count == 0) return;
 
-            // Generate a random rotation amount
             var random = new Random();
             var randomRotation = random.Next(720, 1080); // Random spin amount for smoother motion
-
-            // Update rotation angle for animation
             RotationAngle += randomRotation;
-
-            // Trigger UI update to start the spin animation
             StateHasChanged();
 
-            // Wait for the animation to complete (5 seconds for the spin)
-            await Task.Delay(2000);
+            await Task.Delay(5000); // Animation duration
 
-            // Calculate the selected game based on the final angle
             var sliceAngle = 360 / Games.Count;
-            var adjustedAngle = (360 - (RotationAngle % 360) + 90) % 360; // Adjust for the arrow's top position
+            var adjustedAngle = (360 - (RotationAngle % 360) + 90) % 360;
             var selectedIndex = (int)(adjustedAngle / sliceAngle) % Games.Count;
             SelectedGame = Games[selectedIndex];
 
-            // Update the UI to show the result
             StateHasChanged();
         }
-
-
 
         private string GetSliceColor(int index)
         {
@@ -85,26 +60,23 @@ namespace RummyRoulette.Pages
             var anglePerSlice = 360.0 / totalSlices;
             var startAngle = anglePerSlice * index;
             var endAngle = anglePerSlice * (index + 1);
-
-            // Adjusting the arc radius to match the wheel's radius (250px)
-            return DescribeArc(0, 0, 250, startAngle, endAngle); // 250 is the radius of the wheel
+            return DescribeArc(0, 0, 200, startAngle, endAngle);
         }
 
         private MarkupString GetVerticalTextElement(int index, string text)
         {
             var totalSlices = Games.Count;
             var sliceAngle = 360.0 / totalSlices;
-            var startAngle = sliceAngle * index; // Start angle of the slice
-            var rotation = startAngle + sliceAngle / 1; // Rotate to the center of the slice
-            var textRadius = 250; // Adjust distance from the center
+            var startAngle = sliceAngle * index;
+            var rotation = startAngle + sliceAngle / 2;
+            var textRadius = 160; // Position text closer to the center
 
             return new MarkupString($@"
-            <text x=""{index}"" y=""-{textRadius}"" fill=""#fff"" font-size=""07"" 
+            <text x=""0"" y=""-{textRadius}"" fill=""#fff"" font-size=""10"" 
                   text-anchor=""middle"" transform=""rotate({rotation})"">
                 {InsertVerticalText(text)}
             </text>");
         }
-
 
         private string DescribeArc(double x, double y, double radius, double startAngle, double endAngle)
         {
@@ -124,11 +96,7 @@ namespace RummyRoulette.Pages
 
         private string InsertVerticalText(string text)
         {
-            // Inserts each character in a vertical format with a <tspan>
-            return string.Join("", text.Select(c => $"<tspan x=\"2\" dy=\"1.2em\">{c}</tspan>"));
+            return string.Join("", text.Select(c => $"<tspan x=\"0\" dy=\"1.2em\">{c}</tspan>"));
         }
-
-
-
     }
 }

@@ -10,6 +10,17 @@
 body {
     height: 100vh;
     background: linear-gradient(135deg, #69b578, #4e996c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Space between the wheel and the result */
+    width: 100%;
 }
 
 .wrapper {
@@ -17,10 +28,6 @@ body {
     max-width: 34.37em;
     max-height: 90vh;
     background-color: #ffffff;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     padding: 3em;
     border-radius: 1em;
     box-shadow: 0 4em 5em rgba(27, 8, 53, 0.2);
@@ -38,6 +45,13 @@ body {
     height: 100%;
 }
 
+.wheel-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #wheel {
     max-height: inherit;
     width: inherit;
@@ -45,26 +59,20 @@ body {
     padding: 0;
 }
 
-@keyframes rotate {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
 #spin-btn {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    height: 26%;
-    width: 26%;
+    height: 15%; /* Reduced size */
+    width: 15%; /* Reduced size */
     border-radius: 50%;
     cursor: pointer;
     border: 0;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     color: #372685;
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1.2em; /* Adjusted font size */
     letter-spacing: 0.1em;
     font-weight: 600;
 }
@@ -76,13 +84,32 @@ img {
     right: -8%;
 }
 
-#final-value {
+#result {
     font-size: 1.5em;
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 30px;
     color: #202020;
     font-weight: 500;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    height: fit-content;
 }
+
+.result-card {
+    font-size: 1.2em;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+    .result-card img {
+        margin-top: 15px;
+    }
 
 @media screen and (max-width: 768px) {
     .wrapper {
@@ -91,5 +118,10 @@ img {
 
     img {
         right: -5%;
+    }
+
+    #result {
+        width: 80%;
+        margin-top: 20px;
     }
 }
